@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: rgb(32, 32, 32);
+  color: rgb(233, 233, 233);
+  font-family: "Noto Sans", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.yandexmap {
+  width: 500px;
+  height: 500px;
+  background-color: #333;
+  margin-top: 5vh;
+  margin-left: 5vh;
+  border-radius: 15px;
+}
+.heading {
+  margin-top: 5vh;
+  margin-left: 5vh;
+}
+span {
+  color: rgb(240, 24, 24);
+}
+.hover_container {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  background-color: rgb(31, 31, 31);
+  color: rgb(236, 236, 236);
+  padding-top: 10px;
+}
+.hover_container .eventName {
+  font-size: 19px;
+  font-weight: 500;
+  padding-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hover_container .locationName {
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hover_container .timeEvent {
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 10px;
 }
